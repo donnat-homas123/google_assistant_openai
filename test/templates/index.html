@@ -2,13 +2,18 @@
 <html>
 <head>
     <title>Speech Recognition</title>
+    <link rel="stylesheet" href='../static/style.css'>
 </head>
 <body>
     <h1>Speech Recognition</h1>
-    <p>Click the button to start recording your voice:</p>
-    <button onclick="startRecording()">Start Recording</button>
-    <p id="recordingStatus"></p>
-    <div id="recognizedText"></div> <!-- New div to display the recognized text -->
+    <div class="container">
+        <p>Click the button to start recording your voice:</p>
+        
+        <button class="gradient-button" onclick="startRecording()">Start Recording</button>
+        <p id="recordingStatus"></p>
+        <div id="recognizedText"></div>
+    </div>
+     <!-- New div to display the recognized text -->
     <script>
         function startRecording() {
             var recordingStatus = document.getElementById("recordingStatus");
