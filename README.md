@@ -11,3 +11,5 @@ Through this project the ai assistant named google will capture the voice of use
 1. Explaining the working of project
 
 Upon running the project,a pop up appears on the screen,as ai assistant.Here we are asked to give your voice which is to be displayed.
+
+Generate your openai api key from the openai website and paste in the area provided to make the code work on the laptop.
