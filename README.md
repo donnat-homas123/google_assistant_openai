@@ -10,4 +10,4 @@ Through this project the ai assistant named google will capture the voice of use
 ## How it Works ?
 1. Explaining the working of project
 
-Upon running the project,a pop up apperas on the screen,as ai assistant.Here we are asked to give your voice which is to be displayed.
+Upon running the project,a pop up appears on the screen,as ai assistant.Here we are asked to give your voice which is to be displayed.
