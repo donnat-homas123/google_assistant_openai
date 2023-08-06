@@ -1,5 +1,5 @@
 # Project Name: google_assistant_openai
-Through this project the ai assistant named google will capture the voice of user and displays it on screen
+Through this project the ai assistant named google will capture the voice of user and displays it on terminal and audio is saved if the word "Google" is in the voice of user and the text is then read out by the ai assisstant .
 ## Team members
 1.Amita Treasa Wilfred [https://github.com/amitawilfred]
 
@@ -9,13 +9,17 @@ Through this project the ai assistant named google will capture the voice of use
 
 # Speech Recognition with OpenAI and Flask
 
-This repository contains a simple web application that uses Flask, OpenAI, and the Google Speech Recognition API to enable real-time speech recognition. The application captures audio from the user's microphone, sends it to the Google Speech Recognition API for recognition, and then processes the recognized text using OpenAI's GPT-3.5 model. The recognized text is displayed on the terminal.
+This repository contains a simple web application that uses Flask, OpenAI, and the "Google" Speech Recognition API to enable real-time speech recognition. The application captures audio from the user's microphone, sends it to the Google Speech Recognition API for recognition, and then processes the recognized text using OpenAI's GPT-3.5 model. The recognized text is displayed on the terminal.
 
 ## How it Works
 
 1. When the user clicks on the "Start Recording" button, the web application captures audio from the user's microphone using the `speech_recognition` library.
 2. The captured audio is sent to the Google Speech Recognition API for recognition, and the recognized text is extracted.
-3. The recognized text is displayed on the terminal.
+3.  If the recognized text contains the keyword "Google", it is sent to OpenAI's GPT-3.5 model using the `openai` Python library to generate a response.
+4. The generated response from OpenAI is converted to speech using the `gtts` library, and the audio file is saved.
+5. The recognized text is displayed in the terminal and the audio response can be hear.
+
+
 
 ## Prerequisites
 
